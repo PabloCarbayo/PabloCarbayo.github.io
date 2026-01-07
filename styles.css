@@ -92,12 +92,19 @@ body::before {
 }
 
 .nav-logo {
-    font-size: 1.25rem;
-    font-weight: 700;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    transition: transform var(--transition);
+}
+
+.nav-logo-img:hover {
+    transform: scale(1.1);
 }
 
 .nav-links {
