@@ -1,2 +1,26 @@
 .vscode/
-referencias.txt
+
+*.txt
+
+# Excluir todos los iconos excepto los necesarios
+assets/icons/*
+
+# Incluir solo los iconos que usamos
+!assets/icons/java/
+!assets/icons/spring/
+!assets/icons/angular/
+!assets/icons/python/
+!assets/icons/flask/
+!assets/icons/docker/
+!assets/icons/c/
+!assets/icons/cplusplus/
+!assets/icons/csharp/
+!assets/icons/html5/
+!assets/icons/css3/
+!assets/icons/sqlite/
+!assets/icons/linux/
+!assets/icons/bash/
+!assets/icons/git/
+!assets/icons/github/
+!assets/icons/dotnetcore/
+!assets/icons/windows11/
