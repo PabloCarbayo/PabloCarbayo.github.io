@@ -615,6 +615,34 @@ footer {
     border-top: 1px solid var(--border-color);
 }
 
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-cv-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--accent-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    transition: all var(--transition);
+}
+
+.footer-cv-link:hover {
+    color: var(--text-primary);
+    border-color: var(--accent-secondary);
+    background: rgba(221, 161, 94, 0.1);
+    transform: translateY(-2px);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {

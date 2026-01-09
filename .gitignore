@@ -24,3 +24,5 @@ assets/icons/*
 !assets/icons/github/
 !assets/icons/dotnetcore/
 !assets/icons/windows11/
+!assets/icons/wordpress/
+!assets/icons/woocommerce/
