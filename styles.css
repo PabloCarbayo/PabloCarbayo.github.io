@@ -623,24 +623,16 @@ footer .container {
     flex-wrap: wrap;
 }
 
-.footer-cv-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--accent-secondary);
+.footer-link {
+    color: var(--accent-primary);
     text-decoration: none;
     font-weight: 500;
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 50px;
-    transition: all var(--transition);
+    transition: color var(--transition);
 }
 
-.footer-cv-link:hover {
-    color: var(--text-primary);
-    border-color: var(--accent-secondary);
-    background: rgba(221, 161, 94, 0.1);
-    transform: translateY(-2px);
+.footer-link:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
 }
 
 /* Responsive */
